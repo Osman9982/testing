@@ -1,0 +1,123 @@
+@import url(https://fonts.googleapis.com/css?family=Concert+One&display=);
+@import url(https://fonts.googleapis.com/css?family=Merriweather&display=);
+@import url(https://fonts.googleapis.com/css?family=Lilita+One&display=);
+@import url(https://fonts.googleapis.com/css?family=Comic+Neue&display=);
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #dcd9cd;
+}
+
+h2 {
+  font-size: 1.7569546120058566vw !important;
+  color: #9b946a;
+  font-family: "Merriweather", sans-serif;
+  text-align: center;
+}
+h3 {
+  font-size: 1.3704245973645681vw !important;
+  color: #9b946a;
+  font-family: "Merriweather", sans-serif;
+  text-align: center;
+}
+h4 {
+  font-size: 1.171303074670571vw !important;
+  color: #9b946a;
+  font-family: "Merriweather", sans-serif;
+  text-align: center;
+}
+
+.summary {
+  display: grid;
+}
+
+img {
+  width: 270px;
+  height: 400px;
+  margin-left: 46px;
+}
+.summary-main {
+  margin-left: 78px;
+  margin-right: 108px;
+  font-size: 1.610541727672035vw;
+  font-family: "Merriweather", sans-serif;
+  line-height: 40px;
+}
+
+.download-sec {
+  display: flex;
+  margin-top: 35px;
+}
+
+.rating {
+  position: relative;
+  bottom: 20px;
+  text-align: center;
+}
+.rating__star {
+  cursor: pointer;
+  color: #dabd18b2;
+}
+
+.btn {
+  position: relative;
+  bottom: 20px;
+  margin-left: 470px;
+  width: 7.833089311859443vw;
+  height: 5.429864253393665vh;
+  font-size: 1.171303074670571vw !important;
+  border-radius: 4px;
+  font-family: "Merriweather", sans-serif;
+  border: none !important;
+  color: #000 !important;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  background-color: #f5f5f5 !important;
+}
+
+@media all and (max-width: 768px) {
+  html {
+    font-size: 100%;
+  }
+  h2 {
+    font-size: 1rem !important;
+  }
+  h3 {
+    font-size: 0.7rem !important;
+  }
+  h4 {
+    font-size: 0.5rem !important;
+  }
+  img {
+    max-width: 100%;
+    width: 30% !important;
+    height: 200px;
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+  .summary {
+    margin-left: 30px;
+  }
+
+  .summary-main {
+    margin-right: 0 !important;
+    margin-left: 0px !important;
+    line-height: 20px !important;
+  }
+  .download-sec {
+    margin-top: 50px;
+  }
+  .btn {
+    width: 50% !important;
+    height: 1rem !important;
+    margin-left: 0 !important;
+    position: relative;
+  }
+  .buttons {
+    display: grid;
+    justify-items: center;
+  }
+}
