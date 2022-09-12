@@ -1,0 +1,114 @@
+@import url(https://fonts.googleapis.com/css?family=Concert+One&display=);
+@import url(https://fonts.googleapis.com/css?family=Merriweather&display=);
+@import url(https://fonts.googleapis.com/css?family=Lilita+One&display=);
+@import url(https://fonts.googleapis.com/css?family=Comic+Neue&display=);
+@import url(https://fonts.googleapis.com/css?family=Sansation&display=);
+@font-face {
+  font-family: Sansation;
+  src: url(./images/Sansation_Regular.ttf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #dcd9cd;
+}
+
+h2 {
+  font-size: 1.7569546120058566vw !important;
+  color: #9b946a;
+  font-family: "Merriweather", sans-serif;
+  text-align: center;
+}
+.sub {
+  position: relative;
+  font-size: 0.8784773060029283vw;
+  bottom: 10px;
+}
+
+h3 {
+  margin-top: 30px;
+  font-size: 1.3704245973645681vw !important;
+  color: #9b946a;
+  font-family: "Merriweather", sans-serif;
+  text-align: center;
+}
+
+.buy-sec {
+  display: grid;
+  justify-items: center;
+}
+
+img {
+  width: 270px;
+  height: 400px;
+  margin-top: 20px;
+}
+
+.price-container {
+  position: relative;
+  bottom: 20px;
+}
+
+.btn {
+  position: relative;
+  bottom: 25px;
+  width: 10.980966325036603vw;
+  height: 5.429864253393665vh;
+  font-size: 1.171303074670571vw !important;
+  border-radius: 4px;
+  font-family: "Merriweather", sans-serif;
+  border: none !important;
+  color: #000 !important;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  background-color: #a0cfbd !important;
+}
+
+.footer {
+  display: flex;
+  height: 237px;
+  background-color: #f2f0e6;
+}
+.first-sec {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-rows: repeat(3, 1fr);
+  flex-basis: 50%;
+  border-right: 1px solid #666;
+}
+.second-sec {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-rows: repeat(3, 1fr);
+  flex-basis: 50%;
+  border-right: 1px solid #666;
+}
+.item {
+  font-family: "Sansation", sans-serif;
+}
+.rating__star {
+  cursor: pointer;
+  color: #dabd18b2;
+}
+
+@media all and (max-width: 768px) {
+  html {
+    font-size: 100%;
+  }
+  h2 {
+    font-size: 0.8rem !important;
+  }
+  h3 {
+    font-size: 0.7rem !important;
+  }
+  .sub {
+    position: relative;
+    top: 0.7541478129713424vh;
+    font-size: 0.4rem;
+  }
+}
